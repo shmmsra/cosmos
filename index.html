@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Explore Escape Velocity</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <style>
+        body {
+            border: none;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+        }
+        #root {
+            text-align: center;
+        }
+        #root .button {
+            text-align: left;
+            display: block;
+            margin: 20px auto 20px auto;
+            border: solid rgb(140, 0, 255) 1px;
+            border-radius: 10px;
+            height: 40px;
+            width: 300px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+
+    <script>
+        function onButtonClick(e) {
+            console.info('Button clicked');
+            document.location.href = './' + e.id;
+        }
+    </script>
+</head>
+
+<body>
+    <div id='root'>
+        <button id='escapeVelocity' class='button' onclick='onButtonClick(this)'>Escape Velocity</button>
+        <button id='specialRelativity' class='button' onclick='onButtonClick(this)'>Special Relativity</button>
+        <button id='blackHole' class='button' onclick='onButtonClick(this)'>Black Hole</button>
+    </div>
+</body>
+
+</html>
