@@ -1,2 +1,2 @@
 # cosmos
-Experiments into cosmological physics
+Experiments into cosmological physics - https://shmmsra.github.io/cosmos/
